@@ -1,0 +1,117 @@
+body{
+	background-color: white;
+	background-size: cover;
+	background-image: url(paris.jpg);
+	background-repeat: no-repeat;
+}
+
+#container{
+	margin: 0 auto;
+	width: 90%;
+}
+
+#header{	
+	
+	height: 400px;	
+}
+
+#title{
+	font-size: 36px;
+	font-family: helvetica;
+	color: #000000;
+	padding-bottom: 100px;
+	text-align: right;
+}
+
+#menu{
+	height: 20px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	position: sticky;
+	top: 0;
+	font-size: 16px;
+}
+
+#menu a:link{
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+#menu a:visited{
+	color: gold
+}
+
+#menu a:hover {
+	color: #666666;
+	background-color: #FFFFFF;
+	font-size: 16px;
+	padding: 10px;
+}
+
+h2{
+	size: 16px;
+	text-decoration: bold;
+	color: white;
+	text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+	1px 1px 0 #000;
+}
+
+img {
+  margin: auto auto 0; /* position to bottom and center */
+}
+
+ p { color: black;
+		opacity: 1;
+}
+	
+#left{
+	background: rgba(204, 204, 204, 0.66);
+	width: 25%;
+	height: 600px;
+	color: white;
+	float: left;	
+	clear: both;
+}
+
+#middleleft{
+	background: rgba(204, 204, 204, 0.66);
+	width: 25%;
+	height: 600px;
+	color: white;
+	float: left;	
+}
+
+#middleright{
+	background:rgba(204, 204, 204, 0.66);
+	width: 25%;
+	height: 600px;
+	color: white;
+	float: left;	
+}
+
+#right{
+	background: rgba(204, 204, 204, 0.66);
+	width: 25%;
+	height: 600px;
+	color: white;
+	float: left;	
+}
+
+#footer{
+	height: 20px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	position: sticky;
+	bottom: 0;
+	font-size: 16px;
+	
+}
+

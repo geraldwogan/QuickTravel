@@ -1,0 +1,199 @@
+
+.container #header,  #menu
+{
+		width : 90%;
+		margin: auto auto auto;
+}
+#header{	
+	padding: 10px;
+	height: 200px;	
+}
+#title{
+	font-size: 36px;
+	font-family: helvetica;
+	color: #000000;
+	text-align: right;
+	float:right;
+	padding-right:40px;
+	padding-top:65px;
+}
+h2{
+	size: 36px;
+	font-family: adamina;
+	text-decoration: bold;
+	color: white;
+	text-shadow:-1px -1px 0 #000,  1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+}
+/*#menu{
+	text-align:center;
+	height: 20px;
+	background-color: black;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: sticky;
+	font-size: 16px;
+}
+#menu a:link{
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+#menu a:visited{
+	color: gold
+}
+#menu a:hover {
+	color: #666666;
+	background-color: #FFFFFF;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 1px;
+	padding-left: 1px;
+}*/
+ul {
+	height:45px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 ;
+    overflow: hidden;
+	width:100%;
+    background-color: black;
+}
+
+li {
+    float: left;
+	border-right: 1px solid #bbb;
+	/* Keep messing with this*/
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: gray;
+}
+.active {
+    background-color: rgba(204, 204, 204, 0.66);
+	/*39, 55, 70*/
+}
+
+.container .box1
+{
+	width : 90%;
+	margin: auto auto auto;
+	display: table;
+}
+.container .box1 .box-row .box2/*box1 and box2*/
+{
+	display: table-row;
+}
+.container  .box1 .box-row .box-cell 
+{
+	display : table-cell;
+	width: 25%;
+	height: 200px;
+	padding: 20px;
+	font-family: arial;
+}
+/*see-through background*/
+.container .box1  .box-row .box-cell.box 
+,.container .box2  .box-row .box-cell.box /*write out full "address" to combine*/
+{	
+	background:rgba(204, 204, 204, 0.66);
+}
+/*box2*/
+.container .box2
+{
+	width : 90%;
+	margin: 0 auto ;
+	display: table;
+}
+.container  .box2 .box-row .box-cell 
+{
+	display : table-cell;
+	width: 25%;
+	height: 200px;
+	font-family: arial;
+	border-bottom: solid;
+}
+
+.container .box2  .box-row .box-cell.box img
+{	
+	width: 99%;
+	padding-left:2px;
+}
+
+#footer
+{
+	width: 90%;
+	height: 205px;
+	background:rgba(39, 55, 70, 0.66);
+	margin: auto auto;
+	
+}
+/*#footer img
+{
+	width:140px;
+	height:140px;
+	padding-top:20px;
+	padding-left:50px;
+	margin: auto auto;
+}*/
+#socialmedia 
+{
+	float: right;
+	padding-right:30px;
+	}
+#socialmedia img
+{
+	width:60px;
+	height:60px;
+	padding: 20px 20px 1px 20px;
+}
+#logotest
+{
+	height: 140px;
+	width: 140px;
+	padding-top:20px;
+	padding-left:50px;
+	
+	float:left;
+}
+#copyright
+{
+	float:left;
+	margin:0 auto;
+	padding-top:20px;
+	padding-left:490px;
+}
+#newsletter
+{
+	float:left;
+	padding-left:420px;
+	
+}
+#signup
+{
+	background:rgba(0,0,0,0);
+	color:white;
+	border: soild;
+}
+#signup a:hover
+{
+	background: black;
+}
+h1{
+	font-family: adamina;
+}
+h6{
+	size: 20px;
+	font-family: helvetica;
+	text-decoration: bold;
+	color: grey;
+	text-shadow:-1px -1px 0 #000,  1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+}

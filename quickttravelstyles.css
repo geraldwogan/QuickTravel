@@ -1,0 +1,104 @@
+body{
+	background-color: #white;
+}
+
+#container{
+	margin: 0 auto;
+	width: 90%;
+}
+
+#header{
+	background-color: #325784;
+	padding: 10px;
+	height: 400px;
+	background-size: cover;
+	background-image: url(sky2.jpg);
+	background-repeat: no-repeat;
+}
+
+#title{
+	font-size: 36px;
+	font-family: helvetica;
+	color: #ffffff;
+	padding-top: 100px;
+	text-align: center;
+}
+
+
+#menu{
+	height: 20px;
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+#menu a:link{
+	text-decoration: none;
+	font-weight: bold;
+	color: #325784;
+}
+
+#menu a:visited{
+	color: #000000
+}
+
+#menu a:hover {
+    color: #cccccc;
+}
+
+#email{
+	padding: 20px;
+	height: 60px;
+	background-color: #446ABB;
+}
+
+h2{
+	size: 16px;
+	text-decoration: bold;
+	color: #325784;
+}
+
+#topleft{
+	text-decoration: none;
+	
+	background: linear-gradient(to top left, #87AFC7 ,#1F45FC );
+	width: 50%;
+	height: 300px;
+	float: left;	
+}
+.box1{border-right:solid;}
+
+#topright{
+	overflow: auto;
+	background: linear-gradient(to top right, #87AFC7 ,#1F45FC );
+	color: #000000;
+	width: 50%;
+	height: 300px;
+}
+
+#bottomleft{
+	text-decoration: none;
+	background: linear-gradient(to bottom left, #87AFC7 ,#1F45FC );
+	width: 50%;
+	height: 300px;
+	float: left;
+	
+}
+
+#bottomright{
+	overflow: auto;
+	background: linear-gradient(to bottom right, #87AFC7 ,#1F45FC );
+	color: #000000;
+	width: 50%;
+	height: 300px;
+}
+
+#footer{
+	background-color: #000080;
+	color: grey;
+	font-size: 20px;
+	padding: 10px;
+	height: 200px;
+}
+	
+	

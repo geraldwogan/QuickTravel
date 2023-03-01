@@ -1,0 +1,132 @@
+body{
+	background-color: white;
+	background-size: cover;
+	background-image: url(paris.jpg);
+	background-repeat: no-repeat;
+}
+#container{
+	margin: 0 auto;
+	width: 90%;
+}
+#header{	
+	padding: 10px;
+	height: 400px;	
+}
+#title{
+	font-size: 36px;
+	font-family: helvetica;
+	color: #000000;
+	padding-bottom: 100px;
+	text-align: right;
+}
+#menu{
+	height: 20px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	position: sticky;
+	
+	font-size: 16px;
+}
+#menu a:link{
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+#menu a:visited{
+	color: gold
+}
+#menu a:hover {
+	color: #666666;
+	background-color: #FFFFFF;
+	font-size: 16px;
+	padding: 10px;
+}
+h2, h1{
+	size: 16px;
+	text-decoration: bold;
+	color: white;
+	text-shadow:-1px -1px 0 #000,  1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+}
+
+ p { color: black;
+	 text-align: center;
+	}
+	
+#row{
+	background: transparent;
+}
+	
+.column {
+    float: left;
+    width: 25%;
+	background:rgba(204, 204, 204, 0.66);
+	overflow: auto;
+}
+
+#left{
+	background: rgba(204, 204, 204, 0.66);
+	width: 25%;
+	height: 600px;
+	color: white;
+	float: left;		
+}
+
+
+
+#middleleft{
+	background: rgba(204, 204, 204, 0.66);
+	width: 25%;
+	height: 600px;
+	color: white;
+	float: left;	
+}
+
+#middleright{
+	background-color: rgba(204, 204, 204, 0.66);
+	width: 25%;
+	height: 600px;
+	color: white;
+	float: left;	
+}
+
+#right{
+	background: rgba(204, 204, 204, 0.66);
+	width: 25%;
+	height: 600px;
+	color: white;
+	float: right;	
+}
+
+#footer{
+	border-top: solid;
+    height: 300px;
+    background-color: rgba(204, 204, 204, 0.66);
+    width: 100%;
+	color: black;
+	bottom: 0;
+	overflow:auto;
+}
+
+#myform { background-color:#eaeaea;
+					font-family: Arial;
+						width: 400px;
+				 }
+				 
+label { float:left;
+		width: 120px;
+		clear: left;
+		text-align: right;
+		padding-right: 10px;
+		margin-top: 10px;
+		}
+		
+input, textarea {
+	margin-top: 10px; }
+
+#mySubmit { margin-left:130px;
+					padding-bottom: 10px;
+					 }
+
+	
